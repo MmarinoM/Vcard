@@ -1,0 +1,53 @@
+body{
+    background-image: url(img/stardust.png);
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    justify-content: center;
+}
+.myinfo{
+    width: 20%;
+    background-color: lightcoral;
+    margin-right: 5%;
+    max-height: 500px;
+}
+.competences{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    background-color: lightsalmon;
+    height:max-content;
+    
+}
+
+.mytext{
+    width: 100%;
+    
+    
+}
+.infoPerso{
+    width: 50%;
+    text-align: center;
+}
+.langue{
+    width: 50%;
+    text-align: center;
+}
+.skill{
+    width: 100%;
+}
+.work{
+    width: 100%;
+}
+.education{
+    width: 100%;
+}
+.interest{
+    width: 100%;
+}
