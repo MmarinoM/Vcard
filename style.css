@@ -39,16 +39,21 @@ body{
     width: 100%;
     padding: 30px;
     text-align: justify;
+    font-size: 1.4em;
     
     
 }
 .infoPerso{
     width: 50%;
-    text-align: center;
+    text-align: left;
+    border-top: 2px solid lightcoral;
+    
+    
 }
 .langue{
     width: 50%;
     text-align: center;
+    border-top: 2px solid lightcoral;
 }
 .skill{
     width: 100%;
@@ -118,3 +123,25 @@ body{
     margin: 0 auto;
 }
 
+/* ************* FIN SIDE BAR ************************* */ 
+
+
+
+/* FLEX DES DONNES PERSO ***************** */
+
+.ulflex{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.ulflex>li{
+    width: 40%;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.langue>.ulflex>li{
+    width: 99%;
+    border: 1px solid black;
+}
