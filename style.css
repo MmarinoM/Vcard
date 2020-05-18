@@ -1,5 +1,6 @@
 body{
     background-image: url(img/stardust.png);
+    background-attachment: fixed;
     margin: 0 auto;
     color: #FFEFD1;
     font-family: 'Quicksand', sans-serif;
@@ -46,14 +47,14 @@ body{
 .infoPerso{
     width: 50%;
     text-align: left;
-    border-top: 2px solid lightcoral;
+    
     
     
 }
 .langue{
     width: 50%;
     text-align: center;
-    border-top: 2px solid lightcoral;
+    
 }
 .skill{
     width: 100%;
